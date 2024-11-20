@@ -262,7 +262,7 @@
 
 /obj/item/clothing/under/roguetown/carapacelegs
 	name = "carapace chausses"
-	desc = "aquatic plated armor to protect the legs."
+	desc = "Aquatic plated armor to protect the legs."
 	gender = PLURAL
 	icon_state = "carapace_legs"
 	item_state = "carapace_legs"
@@ -276,6 +276,15 @@
 	drop_sound = 'sound/foley/dropsound/chain_drop.ogg'
 	r_sleeve_status = SLEEVE_NOMOD
 	l_sleeve_status = SLEEVE_NOMOD
+
+/obj/item/clothing/under/roguetown/chainlegs/iron/skirt
+	name = "iron chain skirt"
+	icon = 'modular_stonehedge/icons/armor/pants.dmi'
+	mob_overlay_icon = 'modular_stonehedge/icons/armor/onmob/pants.dmi'
+	icon_state = "chain_skirt"
+	item_state = "chain_skirt"
+	color = "#9EA48E"
+	genitalaccess = TRUE
 
 /obj/item/clothing/under/roguetown/chainlegs/skirt
 	name = "chain skirt"
@@ -301,9 +310,9 @@
 
 /obj/item/clothing/under/roguetown/carapacelegs/dragon
 	name = "dragonscale platelegs"
-	desc = "dragonscale armor to protect the legs."
-	armor = list("blunt" = 80, "slash" = 100, "stab" = 60, "bullet" = 50, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 60, "acid" = 0)
-	color = "red"
+	desc = "Dragonscale armor to protect the legs."
+	armor = list("blunt" = 80, "slash" = 100, "stab" = 80, "bullet" = 50, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 60, "acid" = 0)
+	color = "#9e5761"
 	sellprice = 50
 
 /obj/item/clothing/under/roguetown/carapacelegs/dragon/skirt

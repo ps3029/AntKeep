@@ -42,7 +42,7 @@
 
 /obj/item/roguekey/lord
 	name = "master key"
-	desc = "The Lord's key."
+	desc = "The Monarch's key."
 	icon_state = "bosskey"
 	lockid = "lord"
 
@@ -247,6 +247,12 @@
 	icon_state = "rustkey"
 	lockid = "farm"
 
+/obj/item/roguekey/veteran
+	name = "guildmaster key"
+	desc = "This key is for adventurer's guild."
+	icon_state = "ekey"
+	lockid = "veteran"
+
 /obj/item/roguekey/butcher
 	name = "butcher key"
 	desc = "This is a rusty key that'll open butcher doors."
@@ -327,7 +333,7 @@
 
 /obj/item/roguekey/hand
 	name = "hand's key"
-	desc = "This regal key belongs to the King's Right Hand."
+	desc = "This regal key belongs to the Monarch's Right Hand."
 	icon_state = "cheesekey"
 	lockid = "hand"
 
@@ -482,6 +488,7 @@
 	else if(istype(user.get_active_held_item(), /obj/item/rogueweapon/hammer) && src.lockhash != 0)
 		var/obj/item/roguekey/custom/F = new (get_turf(src))
 		F.lockhash = src.lockhash
+		F.lockid = lockhash
 		to_chat(user, span_notice("You finish [F]."))
 		qdel(src)
 
