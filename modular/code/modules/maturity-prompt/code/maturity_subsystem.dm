@@ -1,4 +1,4 @@
-/
+/*
 //This isn't necessary in a local testing space.
 
 
@@ -267,4 +267,4 @@ SUBSYSTEM_DEF(maturity_guard)
 	to_chat(user, player_ban_notification)
 
 	qdel(user.client)
-/
+*\
