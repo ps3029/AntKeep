@@ -88,7 +88,7 @@ NO_INTERCEPT_REPORT
 ## Default probablity is 1, increase to make that mode more likely to be picked.
 ## Set to 0 to disable that mode.
 
-PROBABILITY CHAOSMODE 99
+PROBABILITY CHAOSMODE 0
 PROBABILITY TRAITOR 0
 PROBABILITY TRAITORBRO 0
 PROBABILITY TRAITORCHAN 0
@@ -107,7 +107,7 @@ PROBABILITY DEVIL_AGENTS 0
 PROBABILITY CLOWNOPS 0
 
 ## You probably want to keep sandbox off by default for secret and random.
-PROBABILITY SANDBOX 0
+PROBABILITY SANDBOX 99
 
 ## Percent weight reductions for three of the most recent modes
 
