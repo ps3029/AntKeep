@@ -18,7 +18,7 @@ $include discord.txt
 SERVERNAME AntKeep
 
 ## Server tagline: This will appear right below the server's title.
-SERVERTAGLINE MH-RP. Low-Fantasy Renaissance. (18+)
+SERVERTAGLINE MH-RP. Low-Fantasy Early-Renaissance. (18+)
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 # SERVERSQLNAME tgstation
