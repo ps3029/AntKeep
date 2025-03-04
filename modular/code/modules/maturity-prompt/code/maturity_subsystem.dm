@@ -1,3 +1,8 @@
+/
+//This isn't necessary in a local testing space.
+
+
+
 // Might as well go and group it up into a subsystem.
 
 // Y'know, on a downstream you can go ahead and set it to whatever the fuck you want
@@ -262,3 +267,4 @@ SUBSYSTEM_DEF(maturity_guard)
 	to_chat(user, player_ban_notification)
 
 	qdel(user.client)
+/
