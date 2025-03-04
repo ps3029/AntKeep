@@ -25,7 +25,7 @@
 	del_on_deaggro = 0
 //	stat_attack = UNCONSCIOUS
 	remains_type = /obj/effect/decal/remains/wolf
-	erpable = TRUE
+	erpable = FALSE
 
 /mob/living/simple_animal/hostile/retaliate/rogue/wolf/werewolf/Initialize()
 	. = ..()
@@ -128,8 +128,8 @@
 	tame = 1
 
 /mob/living/simple_animal/hostile/retaliate/rogue/wolf/werewolf/horny
-	seeksfuck = TRUE
+	seeksfuck = FALSE
 
 /mob/living/simple_animal/hostile/retaliate/rogue/wolf/werewolf/safe/horny
-	seeksfuck = TRUE
+	seeksfuck = FALSE
 	color = "#ffc6e2"
