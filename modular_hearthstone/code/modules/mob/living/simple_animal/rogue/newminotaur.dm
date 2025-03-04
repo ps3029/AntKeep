@@ -43,7 +43,7 @@
 	aggressive = 1
 //	stat_attack = UNCONSCIOUS
 	remains_type = /obj/item/rogueweapon/stoneaxe/battle
-	erpable = TRUE
+	erpable = FALSE
 	hornychance = 50
 
 /mob/living/simple_animal/hostile/retaliate/rogue/minotaur/Initialize()
@@ -193,8 +193,8 @@
 	item_d_type = "stab"
 
 /mob/living/simple_animal/hostile/retaliate/rogue/minotaur/horny
-	seeksfuck = TRUE
+	seeksfuck = FALSE
 
 /mob/living/simple_animal/hostile/retaliate/rogue/minotaur/female/horny
-	seeksfuck = TRUE
+	seeksfuck = FALSE
 	
