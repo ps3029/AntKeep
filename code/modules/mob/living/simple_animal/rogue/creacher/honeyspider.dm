@@ -169,4 +169,4 @@
 	deaggroprob = 30
 
 /mob/living/simple_animal/hostile/retaliate/rogue/spider/shapeshift
-	erpable = TRUE
+	erpable = FALSE
