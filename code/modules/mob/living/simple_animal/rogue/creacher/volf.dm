@@ -141,19 +141,19 @@
 	return ..()
 
 /mob/living/simple_animal/hostile/retaliate/rogue/wolf/shapeshift
-	erpable = TRUE
+	erpable = FALSE
 
 /mob/living/simple_animal/hostile/retaliate/rogue/wolf/horny
-	erpable = TRUE
-	seeksfuck = TRUE
+	erpable = FALSE
+	seeksfuck = FALSE
 
 /mob/living/simple_animal/hostile/retaliate/rogue/wolf/safe
 	aggressive = FALSE
 	tame = TRUE
 
 /mob/living/simple_animal/hostile/retaliate/rogue/wolf/safe/horny
-	erpable = TRUE
-	seeksfuck = TRUE
+	erpable = FALSE
+	seeksfuck = FALSE
 
 /mob/living/simple_animal/hostile/retaliate/rogue/wolf/familiar
 	name = "familiar volf"
