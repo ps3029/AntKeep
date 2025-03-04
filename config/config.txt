@@ -15,19 +15,19 @@ $include discord.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-SERVERNAME Dream Keep
+SERVERNAME AntKeep
 
 ## Server tagline: This will appear right below the server's title.
-SERVERTAGLINE M-RP / H-RP Medieval Fantasy: DnD Inspired Setting! (18+)
+SERVERTAGLINE MH-RP. Low-Fantasy Renaissance. (18+)
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 # SERVERSQLNAME tgstation
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME | The Dreamhold | Adventurer State |
+STATIONNAME The Duchy of Kasan
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
-HUB
+#HUB
 
 ## Lobby time: This is the amount of time between rounds that players have to setup their characters and be ready.
 LOBBY_COUNTDOWN 600
@@ -54,7 +54,7 @@ ROUND_END_COUNTDOWN 60
 ENABLE_LOCALHOST_RANK
 
 ## Uncomment to enable the age prompt system; It asks players for their date of birth upon entry and denies players below a certain age.
-AGE_PROMPT_SYSTEM
+#AGE_PROMPT_SYSTEM
 
 ## Uncomment this entry to have certain jobs require your account to be at least a certain number of days old to select. You can configure the exact age requirement for different jobs by editing
 ## the minimal_player_age variable in the files in folder /code/game/jobs/job/.. for the job you want to edit. Set minimal_player_age to 0 to disable age requirement for that job.
@@ -148,7 +148,7 @@ LOG_VIRUS
 LOG_CLONING
 
 ##Log camera pictures - Must have picture logging enabled
-PICTURE_LOGGING_CAMERA
+# PICTURE_LOGGING_CAMERA
 
 ## period of time in seconds for players to be considered inactive
 # INACTIVITY_PERIOD 300
@@ -160,10 +160,10 @@ PICTURE_LOGGING_CAMERA
 # KICK_INACTIVE
 
 ## Comment this out to stop admins being able to choose their personal ooccolor
-ALLOW_ADMIN_OOCCOLOR
+# ALLOW_ADMIN_OOCCOLOR
 
 ## Comment this out to stop admins being able to choose their personal asay color
-ALLOW_ADMIN_ASAYCOLOR
+# ALLOW_ADMIN_ASAYCOLOR
 
 ## Job slot open/close by identification consoles delay in seconds
 ID_CONSOLE_JOBSLOT_DELAY 30
@@ -196,7 +196,7 @@ VOTE_PERIOD 1200
 # DONT_DEL_NEWMOB
 
 ## set a hosted by name for unix platforms
-HOSTEDBY Foxen
+HOSTEDBY Fish
 
 ## Set to jobban "Guest-" accounts from Captain, HoS, HoP, CE, RD, CMO, Warden, Security, Detective, and AI positions.
 ## Set to 1 to jobban them from those positions, set to 0 to allow them.
@@ -239,7 +239,7 @@ USEBLACKLIST
 # SERVER ss13.example.com:2506
 
 ## Discod address
-DISCORDURL https://discord.gg/YTp2GTzwyv
+DISCORDURL 
 
 ## Wiki address
 WIKIURL 
@@ -248,7 +248,7 @@ WIKIURL
 RULESURL 
 
 ## Github address
-GITHUBURL https://github.com/StoneHedgeSS13/StoneHedge
+GITHUBURL https://github.com/ps3029/AntKeep
 
 ## Round specific stats address
 ## Link to round specific parsed logs; IE statbus. It is appended with the RoundID automatically by ticker/Reboot()
@@ -264,10 +264,10 @@ GITHUBURL https://github.com/StoneHedgeSS13/StoneHedge
 ## Github repo id
 ##This can be found by going to https://api.github.com/users/<user name here>/repos
 ##Or https://api.github.com/orgs/<org name here>/repos if the repo owner is an organization
-# GITHUBREPOID 3234987
+# GITHUBREPOID 
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
-BANAPPEALS https://discord.gg/YTp2GTzwyv
+BANAPPEALS
 
 ## System command that invokes youtube-dl, used by Play Internet Sound.
 ## You can install youtube-dl with
@@ -289,7 +289,7 @@ INVOKE_YOUTUBEDL youtube-dl
 #POPUP_ADMIN_PM
 
 ## Uncomment to allow special 'Easter-egg' events on special holidays such as seasonal holidays and stuff like 'Talk Like a Pirate Day' :3 YAARRR
-ALLOW_HOLIDAYS
+#ALLOW_HOLIDAYS
 
 ## Uncomment to show the names of the admin sending a pm from IRC instead of showing as a stealthmin.
 #SHOW_IRC_NAME
@@ -323,26 +323,26 @@ NOTE_STALE_DAYS 365.2422
 #SOFT_POPCAP 35
 
 ## Message for soft cap
-SOFT_POPCAP_MESSAGE Be warned that the server is currently serving a high number of users, Consider checking out the other servers!
+SOFT_POPCAP_MESSAGE Be warned that the server is currently serving a high number of users.
 
 ## Uncomment for 'hard' population caps, players will not be allowed to spawn if the living crew exceeds the listed number, though they may still observe or wait for the living crew to decrease in size.
 HARD_POPCAP 60
 
 ## Message for hard cap
-HARD_POPCAP_MESSAGE Too many people are alive. Wait for people to die or consider visiting a larger server.
+HARD_POPCAP_MESSAGE Too many people are alive.
 
 ## Uncomment for 'extreme' population caps, players will not be allowed to join the server if living crew exceeds the listed number.
 #EXTREME_POPCAP 100
 
 ## Message for extreme cap
-EXTREME_POPCAP_MESSAGE The server is currently serving a high number of users, find alternative servers.
+EXTREME_POPCAP_MESSAGE The server is currently serving a high number of users.
 
 ## Uncomment to allow BYOND subscribers to bypassing server connection population cap. (Living player population cap still applies.)
 BYOND_MEMBER_BYPASS_POPCAP
 
 ## Notify admins when a new player connects for the first x days a player's been around. (0 for first connection only, -1 for never)
 ##	Requres database
-#NOTIFY_NEW_PLAYER_AGE 0
+NOTIFY_NEW_PLAYER_AGE 0
 
 ## Notify admins when a player connects if their byond account was created in the last X days
 ## Requires database
