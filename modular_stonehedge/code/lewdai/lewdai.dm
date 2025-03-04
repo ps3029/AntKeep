@@ -1,3 +1,6 @@
+
+/*
+
 //By Vide Noir https://github.com/EaglePhntm.
 //probably janky as fuck but it is what it is, all mobs having this stuff enabled will stunlock poor warriors with defiant off and monster hunter quirk, likely.
 
@@ -468,3 +471,5 @@
 					penis = new /obj/item/organ/penis
 				penis.organ_size = rand(MAX_PENIS_SIZE)
 				penis.Insert(user, TRUE)
+
+*\
